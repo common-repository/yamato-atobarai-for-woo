@@ -1,0 +1,332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo - Kuroneko Atobarai Services\n"
+"POT-Creation-Date: 2018-05-01 17:55:32+00:00\n"
+"PO-Revision-Date: 2020-12-11 15:04+0900\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+"Language: ja\n"
+
+#: kuroneko-atobarai.php includes/class-kuatowc.php
+msgid "Settings"
+msgstr "設定"
+
+#: includes/class-kuatowc-admin-order.php
+msgid "When using %s, Kuroneko Atobarai not use."
+msgstr "%s をご利用の場合、クロネコ代金後払いはご利用できません。"
+
+msgid "WooCommerce Subscriptions"
+msgstr "WooCommerce Subscriptions"
+
+msgid "Kuroneko Invoice Number"
+msgstr "クロネコ送り状番号"
+
+msgid "Payment Status"
+msgstr "決済ステータス"
+
+msgid "Atobarai Payment Status"
+msgstr "後払い決済ステータス"
+
+msgid "(KuronekoAtobarai)"
+msgstr "(クロネコ代金後払い)"
+
+msgid "New"
+msgstr "新規"
+
+msgid "Spending amount (%s)"
+msgstr "利用金額 (%s)"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "Not registered of card member information"
+msgstr "カード会員情報未登録"
+
+msgid "Recorded date of sales"
+msgstr "売上確定日"
+
+msgid "Expired the due date of handling."
+msgstr "取り扱いできる期限を過ぎています。"
+
+msgid "Repayment"
+msgstr "再決済"
+
+msgid "Payment error"
+msgstr "決済エラー"
+
+msgid "Payment deadline"
+msgstr "支払期日"
+
+msgid "Payment amount (%s)"
+msgstr "支払い金額 (%s)"
+
+msgid "Unpaid"
+msgstr "未入金"
+
+msgid "Canceled"
+msgstr "取消済み"
+
+msgid "Paid"
+msgstr "入金済"
+
+msgid "Receipt number"
+msgstr "受付番号"
+
+msgid "Deposit date and time"
+msgstr "入金日時"
+
+msgid "Convenience store name"
+msgstr "収納機関"
+
+msgid "(Expired)"
+msgstr "（期限切れ）"
+
+msgid "Are you sure you want to a processing of cancellation?"
+msgstr "取消処理を実行します。よろしいですか？"
+
+msgid ""
+"The spending amount format is incorrect. Please enter with numeric value."
+msgstr "利用金額の形式が不正です。数値で入力してください。"
+
+msgid "Are you sure you want to change the spending amount?"
+msgstr "利用金額の変更処理を実行します。よろしいですか？"
+
+msgid ""
+"The format of payment due date is incorrect. Please enter with 8 digit "
+"number."
+msgstr "支払期限の形式が不正です。８桁の数字で入力してください。"
+
+msgid "The payment due date is incorrect. Past day is not available."
+msgstr "支払期限が不正です。本日以前の日付は指定できません。"
+
+msgid ""
+"The format of payment amount is incorrect. Please enter with numeric value."
+msgstr "支払額の形式が不正です。数値で入力してください。"
+
+msgid ""
+"Are you sure you want to execute a processing of changing payment due date "
+"and payment amount?"
+msgstr "支払期限・支払額の変更処理を実行します。よろしいですか？"
+
+msgid "Are you sure you want to execute a processing of registration?"
+msgstr "登録処理を実行します。よろしいですか？"
+
+msgid "Transaction date"
+msgstr "決済日時"
+
+msgid "Transaction code"
+msgstr "決済コード"
+
+msgid "Status"
+msgstr "ステータス"
+
+msgid "Info"
+msgstr "決済情報"
+
+msgid "Processing date"
+msgstr "処理日時"
+
+msgid "Sequence number"
+msgstr "処理連番"
+
+msgid "Processing classification"
+msgstr "処理区分"
+
+msgid "Result"
+msgstr "処理結果"
+
+msgid "%s is completed."
+msgstr "%sが完了しました。"
+
+msgid "Amount change"
+msgstr "利用額変更"
+
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/class-kuatowc-card-member.php includes/class-kuatowc-exception.php
+#: includes/class-kuatowc-install.php includes/class-kuatowc-logger.php
+#: includes/class-kuatowc-myaccount.php
+msgid "%s is a required field."
+msgstr "%sは必須項目です。"
+
+#: includes/class-kuatowc-payment-gateway.php
+msgid "Enable/Disable"
+msgstr "﻿有効化/無効化"
+
+msgid "Enable Kuroneko Atobarai."
+msgstr "クロネコ代金後払いを有効にする"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "This controls the title which the user sees during checkout."
+msgstr "決済時にユーザーに表示される決済名を設定します。"
+
+msgid "Kuroneko Atobarai"
+msgstr "クロネコ代金後払い"
+
+msgid "Description"
+msgstr "﻿説明"
+
+msgid "Pay with Atobarai via Kuroneko Atobarai."
+msgstr "クロネコ代金後払いを利用して代金後払い決済を利用出来ます。"
+
+msgid "This controls the description which the user sees during checkout."
+msgstr "決済時にユーザーに表示される説明を設定します。"
+
+msgid "Trader Code"
+msgstr "加盟店コード"
+
+msgid "11 digits on contract sheet with Kuroneko Atobarai."
+msgstr ""
+"クロネコ代金後払い登録完了書に記載されている数字11桁の「加盟店コード」を設定"
+"してください。"
+
+msgid "PassWord"
+msgstr "パスワード"
+
+msgid "PassWord Number on contract sheet with Kuroneko Atobarai."
+msgstr "クロネコ代金後払い登録完了書に記載されているパスワード"
+
+msgid "SMS Certification"
+msgstr "スマホタイプ"
+
+msgid "Use SMS Certification."
+msgstr "スマホタイプを利用する"
+
+msgid "Apply other option when use SMS Certification."
+msgstr "スマホタイプを利用する場合は別途オプションの申し込みが必要です。"
+
+msgid "Due to Shipping"
+msgstr "出荷の期限（目安）"
+
+msgid ""
+"Set the maximum value (reference) of the number of days it takes from "
+"ordering to shipping."
+msgstr "※受注日から出荷までにかかる日数の最大値（目安）を設定して下さい。"
+
+msgid "Auth Div"
+msgstr "承認区分"
+
+msgid "Last Checked: %s"
+msgstr "最終確認日: %s"
+
+msgid "<strong>NOTICE: </strong>Connection check works only on Sandbox mode."
+msgstr ""
+"<strong>注意: </strong>接続チェックはサンドボックスモードでしか動きません。"
+
+msgid "Continue to payment"
+msgstr "支払いを続ける"
+
+msgid "Gateway disabled"
+msgstr "ゲートウェイが無効"
+
+msgid "Kuroneko Atobarai does not support your store currency."
+msgstr ""
+"クロネコ代金後払いでは、あなたのショップの通貨をサポートしていません。"
+
+msgid "Test mode"
+msgstr "テストモード"
+
+msgid "Enable Test mode"
+msgstr "テストモードを有効化"
+
+msgid "Connect to test environment and run in test mode."
+msgstr "テスト環境に接続し、テストモードで稼働します。"
+
+msgid "Other Delivery Option"
+msgstr "他社配送オプション"
+
+msgid "Enable Other Delivery Option"
+msgstr "他社配送オプションを利用する"
+
+msgid "Apply other option when use Other Delivery Option."
+msgstr ""
+"他社配送オプションを利用する場合は別途オプションの申し込みが必要です。"
+
+msgid "Kuroneko Atobarai Settlement fee"
+msgstr "クロネコ代金後払い決済手数料"
+
+msgid "Settlement fee"
+msgstr "決済手数料"
+
+msgid "Settlement fee (tax included)"
+msgstr "決済手数料（税込）"
+
+msgid "It will be added to the total amount as a settlement fee."
+msgstr "決済手数料として合計金額に加算します。"
+
+msgid "Please set the settlement fee by the amount including tax."
+msgstr "決済手数料は税込金額で設定してください。"
+
+msgid "Set the settlement fee"
+msgstr "決済手数料を設定する"
+
+msgid "Total Amount (From:)"
+msgstr "合計金額（～から）"
+
+msgid "Total Amount (To:)"
+msgstr "合計金額（～まで）"
+
+msgid ""
+"* A settlement fee of <strong>%s</strong> will be added at the time of "
+"settlement."
+msgstr "※決済時に決済手数料 <strong>%s</strong> が加算されます。"
+
+msgid "Save the log"
+msgstr "ログを保存"
+
+msgid "Save the log of payment results"
+msgstr "支払い結果通知ログを保存"
+
+msgid "Save the log of payment results to WooCommerce System Status log."
+msgstr "WooCommerce システムステータスログに支払い結果通知ログを保存します。"
+
+msgid "TESTMODE RUNNING."
+msgstr "※テストモードで稼働中"
+
+msgid "Payment processing failed. Please retry."
+msgstr "支払い処理に失敗しました。再度お試しください。"
+
+msgid "Payment is completed."
+msgstr "お支払いが完了しました。"
+
+msgid "Credit is completed."
+msgstr "与信が完了しました。"
+
+msgid "Please wait a moment."
+msgstr "そのまましばらくお待ちください。"
+
+msgid "Phone number"
+msgstr "携帯電話番号"
+
+msgid "Processing SMS Certification."
+msgstr "SMS認証中です。"
+
+msgid "Cancel SMS Certification."
+msgstr "SMS認証をキャンセルしました。"
+
+#: includes/class-kuatowc-sln-connection.php
+msgid "TLS 1.2 connection failed."
+msgstr "TLS1.2接続に失敗しました。"
+
+msgid "SSL connection failed."
+msgstr "SSL接続に失敗しました。"
+
+msgid "Timeout occurred during communication."
+msgstr "通信中にタイムアウトが発生しました。"
+
+msgid "Failed to disconnect from SLN."
+msgstr "SLNとの切断に失敗しました。"
+
+msgid "Timeout setting failed."
+msgstr "タイムアウト設定に失敗しました。"
+
+msgid "Invalid request parameter specification."
+msgstr "リクエストパラメータの指定が正しくありません。"

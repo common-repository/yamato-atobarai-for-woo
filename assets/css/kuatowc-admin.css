@@ -1,0 +1,125 @@
+.kuatowc-settlement-admin,
+.order-kuatowc-status {
+    line-height: 2.5em;
+    padding: 0 1em;
+    max-width: 100%;
+    background-color: #093;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    cursor: inherit!important;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+}
+.kuatowc-settlement-admin {
+    display: block;
+}
+.order-kuatowc-status {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: -.25em 0;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+}
+.payment-complete{
+    background-color: #0085ba;
+}
+.amount-chn {
+    background-color: #dd823b;
+}
+.credit-delete{
+    background-color: #60646c;
+}
+.card-error{
+    background-color: #c00;
+}
+.kuatowc-settlement-admin-button .button {
+    margin-right: 1em;
+}
+#kuatowc-settlement-actions table {
+    width: 100%;
+    color:  #888;
+}
+#kuatowc-settlement-actions th {
+    padding-right: .5em;
+    width: 40%;
+    text-align: right;
+}
+#kuatowc-settlement-actions td {
+    width: 60%;
+    text-align: left;
+}
+
+table.kuatowc-settlement-admin-table,
+table.kuatowc-settlement-admin-table th,
+table.kuatowc-settlement-admin-table td,
+table.kuatowc-settlement-history,
+table.kuatowc-settlement-history th,
+table.kuatowc-settlement-history td {
+    border-collapse: collapse;
+    border: 1px #e5e5e5 solid;
+}
+table.kuatowc-settlement-history>tbody>:nth-child(even) {
+    background-color: #f9f9f9;
+}
+table.kuatowc-settlement-admin-table,
+table.kuatowc-settlement-history {
+    margin: 1em 0;
+    width: 100%;
+}
+table.kuatowc-settlement-admin-table th,
+table.kuatowc-settlement-admin-table td {
+    padding: .5em 1em;
+}
+table.kuatowc-settlement-history th,
+table.kuatowc-settlement-history td {
+    padding: 1em .5em;
+}
+table.kuatowc-settlement-admin-table th,
+table.kuatowc-settlement-history th {
+    background-color: #f9f9f9;
+}
+table.kuatowc-settlement-admin-table th {
+    width: 30%;
+    text-align: left;
+}
+table.kuatowc-settlement-history .num,
+table.kuatowc-settlement-history .operateid,
+table.kuatowc-settlement-history .responsecd {
+    text-align: center;
+}
+table.kuatowc-settlement-history .num {
+    width: 2em;
+}
+table.kuatowc-settlement-history .responsecd {
+    width: 6em;
+    color: #093;
+}
+.kuatowc-settlement-admin-error {
+    margin: .7em 0 1em;
+    padding: .5em 1em;
+    width: 100%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #ffe6ea;
+}
+.kuatowc-settlement-admin-expired {
+    margin: .7em 0 1em;
+    padding: .5em 1em;
+    width: 100%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #f0f8ff;
+}
+.kuatowc-settlement-history-body .error,
+table.kuatowc-settlement-history .responsecd.error {
+    color: #f00;
+}
